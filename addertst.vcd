@@ -1,0 +1,72 @@
+$date
+	Mon Feb 14 11:42:02 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var wire 4 ! sum [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % cin $end
+$var reg 1 " cout $end
+$var reg 4 ( sum [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10000
+b100 !
+b100 (
+b10 $
+b10 '
+b1 #
+b1 &
+1%
+#20000
+b11 !
+b11 (
+0%
+#30000
+b110 !
+b110 (
+b1 $
+b1 '
+b100 #
+b100 &
+1%
+#40000
+b101 !
+b101 (
+0%
+#50000
+b1101 !
+b1101 (
+b0 $
+b0 '
+b1100 #
+b1100 &
+1%
+#60000
+b1100 !
+b1100 (
+0%
+#80000
